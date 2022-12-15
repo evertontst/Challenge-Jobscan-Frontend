@@ -30,8 +30,10 @@ $ yarn dev
 # build for production and launch server
 $ yarn build
 $ yarn start
+```
+## Tests
 
-# Tests
+```bash
 yarn run test
 ```
 # Front-end
@@ -45,23 +47,3 @@ We want to provide a web interface for your friend to view a list of relevant jo
 # Back-end
 Feel free to modify and extend the Laravel app to meet your needs.
  One of our unit tests is failing, investigate and adjust as necessary. Create a pull request to resolve the issue.
-
-## Build Setup
-
-```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
-```
-
-For detailed explanation on how things work, check out the [documentation](https://nuxtjs.org).
-
