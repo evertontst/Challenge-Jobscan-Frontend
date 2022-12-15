@@ -1,5 +1,6 @@
 # Dockerfile
 FROM node:16.18.1-alpine
+RUN apk add g++ make py3-pip
 
 # create destination directory
 RUN mkdir -p /usr/src/nuxt-app
