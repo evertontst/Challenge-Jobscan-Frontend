@@ -14,13 +14,13 @@ API_URL = http://localhost/api
 
 # With Docker
 If the backend is set. And you have docker installed, you can set it up by running the build.sh script in this repo, this will setup the containers in docker (and run them) and install dependencies
-
+```bash
 sh build.sh
-
+```
 # Without Docker
 
 If the backend is set. You need to set in this terminal
-
+```bash
 # install dependencies
 $ yarn install
 
@@ -33,7 +33,7 @@ $ yarn start
 
 # Tests
 yarn run test
-
+```
 # Front-end
 We want to provide a web interface for your friend to view a list of relevant job opportunities based on their skills and this list of job postings. Vue.js is preferred, but you may use React or Angular as well. The application should...
  Allow your friend to select up to 10 skills from a list of skills. The list should include skills that appear in the provided list of job postings.
